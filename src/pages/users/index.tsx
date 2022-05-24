@@ -117,7 +117,11 @@ export default function UserList() {
             </>
           )}
 
-          <Pagination />
+          <Pagination
+            totalCountOfRegisters={200}
+            currentPage={4}
+            onPageChange={() => {}}
+          />
         </Box>
       </Flex>
     </Box>
